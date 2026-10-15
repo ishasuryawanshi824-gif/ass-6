@@ -1,0 +1,71 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+}
+
+.app {
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px #00000015;
+}
+
+h1 {
+  text-align: center;
+  color: #234a78;
+  font-size: 27px;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.student-form label {
+  font-weight: bold;
+}
+
+.student-form input,
+.student-form select {
+  padding: 11px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.student-form button {
+  margin-top: 10px;
+  padding: 12px;
+  background: #2463a6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.student-form button:hover {
+  background: #174778;
+}
+
+.student-details {
+  margin-top: 25px;
+  padding: 18px;
+  background: #e9f5ee;
+  border-left: 5px solid #25834a;
+  border-radius: 7px;
+  overflow-wrap: anywhere;
+}
+
+.student-details h2 {
+  color: #21663b;
+}
+
+.student-details p {
+  font-size: 16px;
+}
