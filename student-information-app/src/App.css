@@ -182,3 +182,29 @@
     border-right-color: var(--border);
   }
 }
+git --version
+mkdir GitPractice
+cd GitPractice
+git init
+echo "Version 1" > file.txt
+git status
+git add file.txt
+git commit -m "First Commit"
+echo "Version 2" > file.txt
+git add file.txt
+git commit -m "Update File"
+git log --oneline
+git branch feature
+git switch feature
+echo "Feature added" >> file.txt
+git add file.txt
+git commit -m "Added Feature"
+git branch
+git switch main
+git merge feature
+git log --oneline --graph --all
+echo "Temporary change" >> file.txt
+git restore file.txt
+git branch -M main
+git remote add origin YOUR_GITHUB_REPOSITORY_URL
+git push -u origin main
